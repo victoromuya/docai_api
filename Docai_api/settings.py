@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-3c$#6baxupd5tc^drc!04xwa5qrc!$wcm@^t2q9_wfi+wjxy!$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["https://docai-api-if8x.onrender.com", "localhost", "127.0.0.1"]
 
 # Application definition
 INSTALLED_APPS = [
