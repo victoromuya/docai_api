@@ -54,7 +54,7 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOWED_ORIGINS = [
-    "https://docai-api-if8x.onrender.com/"
+    "https://docai-api-if8x.onrender.com"
 ]
 
 
