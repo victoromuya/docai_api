@@ -57,6 +57,20 @@ CORS_ALLOWED_ORIGINS = [
     "https://docai-api-if8x.onrender.com"
 ]
 
+CORS_ALLOW_HEADERS = [
+    "accept",
+    "accept-encoding",
+    "authorization",
+    "content-type",
+    "dnt",
+    "origin",
+    "user-agent",
+    "x-csrftoken",
+    "x-requested-with",
+    # Add any other custom headers your frontend might be using
+]
+
+
 
 ROOT_URLCONF = "Docai_api.urls"
 
